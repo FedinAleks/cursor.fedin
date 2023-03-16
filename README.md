@@ -1,2 +1,0 @@
-# aleksandrfedin
-# cursor.fedin
