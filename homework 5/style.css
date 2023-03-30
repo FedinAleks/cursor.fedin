@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(122, 133, 143);
+    }   
+.table1 {
+    margin: 30px;
+    background-color: rgb(47, 47, 47);
+    color: azure;
+    width: 550px;
+    height: 180px;
+    border: 1px white;
+    font-size: small;
+    border-collapse: collapse;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 20px;
+}
+.Main {
+    font-weight: bold;
+    font-size: large;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.file1 {
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.file2 {
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.min {
+    color: grey;
+}
+.yesterday {
+    color: grey;
+}
+.June {
+    color: grey;
+}
+.Search {
+    text-align: right;
+    padding-right: 10px;
+}
