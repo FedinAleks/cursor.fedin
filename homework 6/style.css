@@ -1,0 +1,461 @@
+body {
+    width: 1600px;
+    height: 4500px;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.logo {
+    display: flex;
+    align-items: end;
+    
+}
+.image1 {
+    width: 20px;
+    height: 20px;
+    background: #9C69E2;
+    border-radius: 20px;
+}
+.image2 {
+    width: 20px;
+    height: 35px;
+    background: #F063B8;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.Menu {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.About {
+    color: #212353;
+    padding: 30px;
+}
+.Help {
+    padding: 30px;
+}
+.Features {
+    padding: 30px;
+}
+.SignUp {
+    padding: 30px;
+}
+.button1 {
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+}
+.direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maintext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.Save {
+    width: 645px;
+    height: 184px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    color: #212353;
+}
+.Data {
+    width: 380px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.button2 {
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    border: none;
+    color: #FFFFFF;
+}
+.image3 {   
+    margin-top: -350px;
+    margin-left: 330px;
+}
+.block1 {
+    width: 1315px;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.textblock1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Highlevel {
+    width: 475px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+.Theplace {
+    width: 474px;
+    height: 170px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.features1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.featuresmain {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+.Someof {
+    width: 584px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    text-align: center;
+}
+.featureblock1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.textblock1 {
+    margin: 20px;
+}
+.SearchData {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom: 20px;
+}
+.Dontworry {
+    width: 220px;
+    height: 160px;
+    left: 500.29px;
+    top: 1992px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 20px;
+}
+.learnmoreblock1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.learnbutton1 {
+    margin-right: 20px;
+}
+.FeatureBlock {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.FeatureBlock2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.Response {
+    width: 1318px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.Testimonials {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-left: 180px;
+}
+.whiteboard {
+    width: 949px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
+.portrait {
+    border-radius: 150%;
+}
+.name {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.wordfaang.com {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+}
+.Ultrices {
+    width: 566.46px;
+    height: 130px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+.items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 450px;    
+}
+.Slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 {
+    width: 10px;
+    height: 10px;
+    background: #F063B8;
+    border-radius: 50%;
+    
+}
+.item2 {
+    width: 5px;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.hr {
+    margin-top: 150px;
+}
+.firstblock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    gap: 470px;
+}
+.try {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+.get {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.button3 {
+    width: 170px;
+    height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+    border: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.secondblock {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.name2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    margin-left: 20px;
+}
+.adress {
+    width: 335px;
+    height: 65px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+    margin-top: 65px;
+}
+.mail {
+    width: 335px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+    margin-top: 20px;
+}
+.About {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    margin-left: 10px;
+}
+.about_list {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+    margin-top: 65px;
+ }
+ .Help {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    margin-left: 10px;
+}
+.help_list {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+    margin-top: 65px;
+ }
+ .socialm {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+ }
+ .socialbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 65px;
+ }
+ .facebook {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 14px;
+ }
+ .twitter {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 14px;
+ }
+ .instagram {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+ }
+ .thirdblock {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    gap: 730px;
+ }
+ .allreserved {
+    width: 360px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+ }
+ .message {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+ }
