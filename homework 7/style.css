@@ -1,0 +1,529 @@
+body {
+    background-color: white;
+    width: 1440px;
+}
+header {
+    background-color: white;
+}
+.firstblock_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.logo {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+}
+.socialmedia1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 20%;
+}
+.settings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 20%;
+}
+.hr {
+    height: 1px;
+    background: #F3F3F3;
+    border: none;
+}
+.menu {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+}
+.home {
+    color: #EDA3B5;
+}
+.mainpage {
+    width: 1439px;
+    height: 535px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/48be/4125/8bbb594de92cbcb8548697c57e3444ea?Expires=1681689600&Signature=ZK4KTqvZeuZNnZ3Bi5jjExZzGCa-aCTkjnrFqBHtdJRH2pH0bkODPjP92uO1U376GBjWu1853hVgVGDD7zUG8l9HpYlf2uaCWbV9p52i-CqpwvREO4b1hlfx3Gw8aGdP7HiF9DLzNSuq6HKpI~Cu-8Rbx0JvLcIQhEQtjWPV3oO7AyxJOhKo9NX-ciHKnLc3tOj7rhoMGL-X-bTtTJfZLo9fXBQk5jYFOCJz9PkNZHPcIOZAKcn9rMnycirurrzStK5XzZC8kI-GkAeh5ySxe9yzMZ4hpEUdeRT2TjOvTgoBES2Ad04i1Vh8N~nUwRKdXjyOYp~CvcUE2D0JF18mlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    width: 361px;
+    height: 134px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: white;
+    margin-left: 185px;
+}
+.wanted {
+    width: 446px;
+    height: 90px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-left: 185px;
+}
+.button1 {
+    width: 255px;
+    height: 77px;
+    background: #1B2437;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 185px;
+}
+.category {
+    display: grid;
+    grid-template-columns: 445px 300px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: 225px 200px;
+    margin-top: 70px;
+    justify-content: center;
+    
+}
+.box1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/5a2c/1ed8/a031f8e5743065a624efe87e19ca73a6?Expires=1681689600&Signature=X3vlq1lJ6hwOQlreC3bQbK8WXE2GpFKuODCKEIpYkxmEybNS9oFAZbGnIkzfxG5NHRN3LG8khWzyyZCkUP3K1HkrT4gvZ1qoTcSmoT2TrEX8YDd2YnX0qCt83gYIhE0qmYAjqcaEI~AG8a4xRgybNnFEWGkNrxDBmqsI0edSYlkKu3LZXf9DOJYrguIG8qeBVqPiEUU99g6NxwfCofwhdgJEBbd7Sv6ELJ8XQ4mGDdYhmGwuHKw~s9TF6QWqscwuwvIjt7ElzEHQtQjZKZ-zySnzpRvzlfRSEMe0suWTY-pAdT6xWCcnmcsgspj5do2lO9TjdPcjRRwxk1wcLbnQ1w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    border-radius: 16px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-repeat: round;
+}
+.name1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 90px;
+    margin-left: 5%;
+    margin-top: 50%;
+}
+.name1_2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+.Popular {
+    width: 93px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: rgb(183, 183, 183);
+    margin-left: 5%;
+}
+.box2 {
+    background-color: #EFEFF4;
+    border-radius: 16px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.name2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.name2_2 {
+    color: #1B2437;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    margin-left: 5%;
+    width: 70%;
+}
+.box3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/4ea4/ffc8/2dddd6eaf08bb8c6e36fa0c67ddb7c06?Expires=1681689600&Signature=GjQrkgn8k2Pk9bKOLghoVFkS3d69MIzZeRl4~T0mTZO~3~WLLglUB7i--r8fqbCLOLqI9BogX~vTfErKXrUXpy1ZpUcJBw4bmeuNwTo10PFomXgvZEN9tIx1~0mG-DFBW-Uq~mp8QnxeKKhI4cN1O7d1Bx-1VHttSHSxnOcYCIRFThooJCKcBWpcjDtDpRWZRqYwpWD9QCGuTL8~bgOB9RRD2xbF1Jjic5xuSN6PDr3olhIBEISHNCKjTWnI-0uRav4v-yFAFKl1ENokX-vwN3sBcxgc~gQi6Vnr962b91zwmib5a4wmQ8BVaMEV-ihvq9UZx-EdkWyrBNhHg1bRlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    border-radius: 16px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-repeat: round;
+}
+.name3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.name3_2 {
+    font-weight: 900;
+    font-size: 32px;
+    color: white;
+    margin-left: 10%;
+}
+
+.box4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/6bb0/5f23/dd2565fa79c3ff1024ae715e4cf2a5d6?Expires=1681689600&Signature=YT0NkXvlk4dCausRAF0Kai3sOeIzV7R1VKfDCVtT1vS-G5x8OavHxiFQxC5rQVknhPaRxMIOA5TeDf5HGVr8Hz4jk2VnOz-TixoxcslS3BGVfFAh9Fzduu4fEMUP7u~zCfiomh7C8fLzS9157MHnmAypDA3CA-yF3nVjihcRQuZUK-eRhdpB~XVSZzrUlWv9qWzwSsQiF6EZFzp6p0ok9UcuSq8d-Zwql2mdhoD785Lcl5NQH~Ud~ukdwLMgzyEVybxenB5wu7Y5VqRhZUcB9Z7HzX7RYOIl5Gg7aRdTKQLB04cZHJ~0w9TnXNfKGGLerbJqNwtou6Jhtz7KibIAFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    border-radius: 16px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-repeat: round;
+}
+.box5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+    background-color: #F6F6F6;
+    border-radius: 16px;
+}
+.text_box5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+.category_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1B2437;
+    margin-left: 11.5%;
+}
+.clothes {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 30px;
+    justify-items: center;
+    margin-left: 12%;    
+}
+.box_cloth1 {
+    width: 350px;
+    height: 487px;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/9c0b/57dd/eb715cbc5e4346168591201132008fcc?Expires=1682294400&Signature=JBBmoB-sFFT8GD-cvQf4xfvpq9NUPwETgLu1odrRN2VTia0WpJ3jEVFw8uKAtLbuAjJnDPHTes7dLi9omuUs9zp7ExCyl8yet9GURDMYT8r8oMAv9-vPjI34ywdojk7fbbjGib3hkeCytorVK64H~q8zB5iWOE1elJ1o8yAsEAsQCZNnNbls79XHlgsXXL~xINpWfB9xSVe0NkUORC903dpq4-PJGVBCGEbfR~KiNIglXHD7npGYSWSDRKU-54rRvKclinEQQY8na4-tpwjOXNBgc31PGMq1QPuN-8DNhqQR3qBYyoixzOwt7JI7aXlPm4t7e1JHrlyWPErcB0Skgw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+}
+.icon_heart {
+    background-color: #ffe2ea;
+    border: none;
+    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    margin-top: 2%;
+    
+}
+.iconify {
+    margin-top: 20%;
+}
+.main_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 85%;
+    margin-left: 5%;
+}
+.describe_text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.price_dollars {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+}
+.pinkbutton{
+    width: 153px;
+    height: 58px;
+    background: #EDA3B5;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.box_cloth2 {
+    width: 350px;
+    height: 487px;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/72b1/afbb/7efa61d201e9528e0c193b59934e742b?Expires=1682294400&Signature=bQEwiICQ3mOCyxcxBdAqB3CM3mizSReh314ws2yg-oFZRVF-8-0RzaVq6lKBTiRJZxq27Ydbd-UTJu7Bo9d0iuYpu59F1KMRiipqct-2VFDLKRAHRzi~sCOzaJbyZzURmsI0gZvvJnD7NphLliGyr~hf~e526bfLtrsn0Eyw~JLvM5eRl4ua6J~PN1QrQVsfO93f1UpeQqs8a9kY3gqBEqFY-VIImwsoBYsgjIy1F3rIukopG-AbAByRHEKKPDmkKChOHM~Hrh3gTLKvWMtTs4ESDcxG0zg7p9NT3oNjIEOpVDPUO8Ex3DeVacisW1KR8uPMYpTyJu7tqL78zNYQFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+}
+.icon_heart {
+    background-color: #ffe2ea;
+    border: none;
+    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 32%;
+}
+.iconify {
+    margin-top: 20%;
+}
+.main_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 85%;
+    margin-left: 5%;
+}
+.describe_text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.price_dollars {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+}
+.greenbutton{
+    width: 153px;
+    height: 58px;
+    background: #1B2437;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.box_cloth3 {
+    width: 350px;
+    height: 487px;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/5d7c/d17f/b9ce65d0305e27be120f066fd856cce2?Expires=1682294400&Signature=POAsUdnm~X-trT0Igqz3nZqv2JsSSW4R4Slr-RUgCA0X0hP~WEwrgyNBpVUwnX8dFGi0E44bdSoI~Wh4jp22Bo-1ZUFvt5fsOPzbI9kNpfM5S1UxSO08-lxVkQihwJ~nlViObp2XqFCi0jdmWt-RaQC-ABNoGjBEvne3Oxg59UicYiB9Fr~Yz-DyY2llnbs4Vzvx-zWuOksI5rMHvWFbLKPeur-chtxkGs6c1XB9Ybc0cNc427UVigFhow6DJdlIvYGmO29OnoFWE1AnFRtg6emA28tIRnxkba-Qw64qrnDVWv3Za05-QGAr9RyRcpOIn1g1uF4YH~Xj30Jjt243HQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+}
+.icon_heart {
+    background-color: #ffe2ea;
+    border: none;
+    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 32%;
+}
+.iconify {
+    margin-top: 20%;
+}
+.main_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 85%;
+    margin-left: 5%;
+}
+.describe_text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.price_dollars {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+}
+.greenbutton{
+    width: 153px;
+    height: 58px;
+    background: #1B2437;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.Contacts {
+    width: 1110px;
+    height: 658px;
+    background-color: rgb(174, 174, 174);
+    display: grid;
+    margin-left: 11.5%;
+    border-radius: 16px;
+}
+.map {
+    width: 1086px;
+    height: 511px;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.icon_map {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 45%;
+}
+.number_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    justify-self: center;
+}
+.mail {
+    justify-self: center;
+    align-self: center;
+}
+.adress {
+    justify-self: center;
+    align-self: center;
+}
+.phone {
+    justify-self: center;
+    align-self: center;
+}
+.footer1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.footer_text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C5C5C;
+    width: 70%;
+}
+.hotlinks {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    list-style: none;
+}
+.list {
+    color: #8E8E93;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 74%;
+    background: #E5E5EA;
+}
+.footer_copy {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #8E8E93;
+    margin-left: 11%;
+}
+.socialmedia2 {
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 10%;
+}
