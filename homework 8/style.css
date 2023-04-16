@@ -1,0 +1,58 @@
+.blocks {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 18px;
+    justify-content: center;
+}
+.squre {
+    background-color: grey;
+}
+.squre1 {
+    background-color: rgb(97, 97, 228);
+}
+.squre:nth-last-child(-n+4) {
+    background-color: rgb(97, 97, 228);
+}
+.squre:nth-of-type(4n-1) {
+    background-color: rgb(151, 44, 44);
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #ffffff;
+    width: 501px;
+    height: 92px;
+    background: #44d3a8;
+    border: #44d3a8;
+    border-radius: 100px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+button:before {
+    content: " ";
+    position: absolute;
+    right: 520px;
+    top: 40px;
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+}
+button:after {
+    content: " ";
+    position: absolute;
+    left: 520px;
+    top: 40px;
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+}
