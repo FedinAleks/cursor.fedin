@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.space {
+    background-image: url(./image/space.jpg);
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sword_1 {
+    width: 180px;
+    height: 7px;
+    background-color: rgb(240, 213, 171);
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 30px rgb(147, 242, 191);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    animation-name: sword_1;
+    animation-duration: 7s;
+}
+@keyframes sword_1 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.handle1 {
+    width: 15px;
+    height: 100%;
+    background-color: rgb(27, 25, 25);
+    margin-left: 5px;
+}
+.sword_2 {
+    width: 180px;
+    height: 7px;
+    background-color: rgb(207, 201, 192);
+    border-radius: 10px;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 30px rgb(55, 4, 241);
+    margin-bottom: 30px;
+    animation-name: sword_2;
+    animation-duration: 7s;
+}
+@keyframes sword_2 {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 45deg;
+        background-color: red;
+        margin-bottom: -8px;
+    }
+}
+.handle2 {
+    width: 15px;
+    height: 100%;
+    background-color: rgb(27, 25, 25);
+    margin-left: 88%;
+}
+.sword_3 {
+    width: 180px;
+    height: 7px;
+    background-color: rgb(207, 201, 192);
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 30px rgb(233, 65, 65);
+    border-radius: 10px;
+    animation-name: sword_3;
+    animation-duration: 7s;
+}
+@keyframes sword_3 {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: -45deg;
+        background-color: rgb(23, 54, 255);
+    }
+}
+.circles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.circle1 {
+    display: block;
+    background: rgb(59, 159, 253);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes circle1 {
+    0% {}
+    0% {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    50% {
+        margin-right: 50px;
+        margin-top: -75px;
+    }
+    100% {
+
+    }
+}
+.circle2 {
+    display: block;
+    background: linear-gradient( to right, rgb(136, 178, 255),rgb(176, 252, 55));
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle3 {
+    display: block;
+    background: rgb(195, 238, 24);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle4 {
+    display: block;
+    background: rgb(195, 238, 24);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle5 {
+    display: block;
+    background: rgb(195, 238, 24);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle6 {
+    display: block;
+    background: rgb(195, 238, 24);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle7 {
+    display: block;
+    background: rgb(195, 238, 24);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    animation-name: circle7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle7 {
+    0% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    100% {
+        margin-left: 50px;
+        margin-top: -75px;
+    }
+}
