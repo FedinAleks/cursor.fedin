@@ -106,7 +106,7 @@ body {
         margin-right: 0px;
         margin-top: 0px;
     }
-    50% {
+    25% {
         margin-right: 50px;
         margin-top: -75px;
     }
@@ -158,9 +158,10 @@ body {
     animation-name: circle7;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-direction: normal;
 }
 @keyframes circle7 {
-    0% {
+    50% {
         margin-left: 0px;
         margin-top: 0px;
     }
